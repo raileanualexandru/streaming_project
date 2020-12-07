@@ -1,0 +1,57 @@
+.maincontent {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.signform {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(92, 85, 85);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+}
+
+h2 {
+    color: rgb(219, 106, 14);
+}
+
+#pwdReset {
+    color: rgb(170, 187, 219);
+}
+
+.bodyBeforeLogin {
+    background-image: url("../img/default.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bodyAfterLogin {
+    background-color: yellowgreen;
+}
+
+.nav-link{
+    padding-left: 300px !important;
+    font-size: 1.5em;
+    color: red !important;
+}
