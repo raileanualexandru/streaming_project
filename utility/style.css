@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    
+   
+}
+
+#top_rated, #popular, #upcoming {
+    display: flex;
+    padding: 10px 10px;
+    
+}
+
+.posters::-webkit-scrollbar {  
+    display: none; 
+}
+.posters {
+    object-fit: contain;
+    width: 100%;
+    max-height: 300px;
+    margin-right: 10px;
+    transition: transform 450ms;
+     
+}
+.posters:hover {
+    transform: scale(1.08);
+}
+
+h4 {
+    color: white;
+}
