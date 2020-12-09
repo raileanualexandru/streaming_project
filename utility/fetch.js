@@ -13,23 +13,23 @@ const upcoming = `https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}`
 
 
 // NAV
-let searchButton = document.querySelector("#searchButton");
-searchButton.addEventListener("click", () => {
-  console.log("clicked");
-  fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${searchInput}`)
-  .then(response => response.json())
-  .then((data) => {
-    let searchInput = document.querySelector("#searchInput").value;
-    console.log(response);
-      if (searchInput == '') {
-        alert('Please Write Something in Search Bar');
-      } else {
-        data.results.forEach(film => {
-          document.querySelector("#filmSearch").insertAdjacentHTML("beforeend", `<img class="searchFilm" src="${posterUrl}${film.poster_path}"/>`);
-        })
-      }
-    })
-});
+// let searchButton = document.querySelector("#searchButton");
+// searchButton.addEventListener("click", () => {
+//   console.log("clicked");
+//   fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${searchInput}`)
+//   .then(response => response.json())
+//   .then((data) => {
+//     let searchInput = document.querySelector("#searchInput").value;
+//     console.log(response);
+//       if (searchInput == '') {
+//         alert('Please Write Something in Search Bar');
+//       } else {
+//         data.results.forEach(film => {
+//           document.querySelector("#filmSearch").insertAdjacentHTML("beforeend", `<img class="searchFilm" src="${posterUrl}${film.poster_path}"/>`);
+//         })
+//       }
+//     })
+// });
 
 // BANNER FETCH
 fetch(top_rated).then((reponse) => {
