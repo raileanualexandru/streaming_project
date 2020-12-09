@@ -37,36 +37,6 @@ h1{
 }
 /* LOGIN ENDS */
 
-
- #top_rated, #popular, #upcoming {
-     display: flex;
-     padding: 10px 10px;
-     
- }
- 
- .posters::-webkit-scrollbar {  
-     display: none; 
- }
- .posters {
-     object-fit: contain;
-     width: 100%;
-     max-height: 300px;
-     margin-right: 10px;
-     transition: transform 450ms;
-      
- }
- .posters:hover {
-     transform: scale(1.08);
- }
- 
- h4 {
-     color: white;
- }
- /* SIGNUP STARTS */
-body{
-    background-color: black !important; /* pour prioritiser mon code css à celui de bootstrap */
-}
-
 .form{
    
      padding-top: 55px;
@@ -102,3 +72,62 @@ body{
 }
 
 /* SIGNUP ENDS */
+
+
+body {
+    background-color: black;
+}
+
+#top_rated, #popular, #upcoming {
+    display: flex;
+    padding: 10px 10px;
+    
+}
+
+h4 {
+    color: white;
+}
+
+
+.posters::-webkit-scrollbar {  
+    display: none; 
+}
+.posters {
+    object-fit: contain;
+    width: 100%;
+    max-height: 300px;
+    margin-right: 10px;
+    transition: transform 450ms;
+     
+}
+.posters:hover {
+    transform: scale(1.08);
+}
+
+
+
+.searchFilm {
+    height: 200px;
+    width: 150px;
+    padding: 10px 10px;
+}
+
+.banners {
+    color: white;
+    max-height: 600px; 
+    position: relative;
+    width: 100%;
+}
+
+
+.descriptions {
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px; 
+    position: relative;
+    z-index: 100;
+    color: white;
+    bottom: 100px;
+    max-width: 600px;
+    text-align: justify;
+}
