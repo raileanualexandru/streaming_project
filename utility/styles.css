@@ -1,11 +1,41 @@
 /* NAVABR STARTS */
 
 /* NAVABR ENDS */
-
-/* SIGNUP STARTS */
-body{
-     background-color: black !important; /* pour prioritiser mon code css à celui de bootstrap */
+/* LOGIN STARTS */
+h1{
+    color:white;
 }
+
+/* .form_login{
+    background-image:url("/utility/images/films.jpg");
+}  */
+
+.btn{
+   background-color: rgb(255, 0, 0);
+   /* opacity: 2.0; */
+}
+
+.bg-home{
+    background-image:url("/utility/images/bobine.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+.bg-form2{
+    background-image: url("/utility/images/bg-films.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+ }
+
+.question{
+    font-size: 15px;
+}
+.inscription{
+    font-size: 15px;
+}
+/* LOGIN ENDS */
 
 
  #top_rated, #popular, #upcoming {
@@ -32,6 +62,43 @@ body{
  h4 {
      color: white;
  }
+ /* SIGNUP STARTS */
+body{
+    background-color: black !important; /* pour prioritiser mon code css à celui de bootstrap */
+}
 
+.form{
+   
+     padding-top: 55px;
+     padding-bottom: 55px;
+     padding-right: 10%;
+     padding-left: 10%;
+     position: center;
  
+    }
+/* .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+} */
+
+ .row{
+     background-color: rgb(41, 39, 39);
+     width: 100% !important;
+     opacity: 0.9;
+ }
+ 
+ .bg-form{
+    background-image: url("/utility/images/projecteur.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+
+.btn{
+    
+    background-color: rgb(255, 0, 0);
+    
+}
+
 /* SIGNUP ENDS */
