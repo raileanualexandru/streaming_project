@@ -6,14 +6,7 @@ h1{
     color:white;
 }
 
-/* .form_login{
-    background-image:url("/utility/images/films.jpg");
-}  */
 
-.btn{
-   background-color: rgb(255, 0, 0);
-   /* opacity: 2.0; */
-}
 
 .bg-home{
     background-image:url("/utility/images/bobine.jpg");
@@ -22,7 +15,7 @@ h1{
 }
 
 .bg-form2{
-    background-image: url("/utility/images/bg-films.png");
+    background-image: url("./images/bg-films.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,7 +26,7 @@ h1{
     font-size: 15px;
 }
 .inscription{
-    font-size: 15px;
+    font-size: 20px;
 }
 /* LOGIN ENDS */
 
@@ -45,31 +38,22 @@ h1{
      padding-left: 10%;
      position: center;
  
-    }
-/* .img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-} */
+}
 
- .row{
-     background-color: rgb(41, 39, 39);
+ .line{
+     background-color: #130D0D;
      width: 100% !important;
      opacity: 0.9;
  }
  
  .bg-form{
-    background-image: url("/utility/images/projecteur.jpg");
+    background-image: url("./images/projecteur.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
  }
 
-.btn{
-    
-    background-color: rgb(255, 0, 0);
-    
-}
+
 
 /* SIGNUP ENDS */
 
