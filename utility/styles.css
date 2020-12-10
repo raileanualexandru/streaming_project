@@ -1,17 +1,35 @@
-/* NAVABR STARTS */
-
-/* NAVABR ENDS */
-/* LOGIN STARTS */
-h1{
-    color:white;
+body {
+    background-color: black;
 }
 
+/* HEADER STARTS */
 
+.logo_nav {
+    height: 50px;
+    background-color: #0C0B10;
+}
+.tiledBackground {
+    background-image: url("/utility/images/bgtwo.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 80vh;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+}
+.acces {
+    width: 500px;
+    height: 50px;
+}
+/* HEADER ENDS */
+
+/* LOGIN STARTS */
 
 .bg-home{
     background-image:url("/utility/images/bobine.jpg");
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
 
 .bg-form2{
@@ -30,6 +48,7 @@ h1{
 }
 /* LOGIN ENDS */
 
+/* SIGN UP STARTS */
 .form{
    
      padding-top: 55px;
@@ -47,21 +66,17 @@ h1{
  }
  
  .bg-form{
-    background-image: url("./images/projecteur.jpg");
+    background-image: url("./images/Group.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+   
  }
 
+/* SIGN UP ENDS */
 
 
-/* SIGNUP ENDS */
-
-
-body {
-    background-color: black;
-}
-
+/* FILMS STARTS */
 #top_rated, #popular, #upcoming {
     display: flex;
     padding: 10px 10px;
@@ -95,10 +110,12 @@ h4 {
     width: 150px;
     padding: 10px 10px;
 }
+/* FILMS ENDS */
 
+/* BANNERS STARTS */
 .banners {
     color: white;
-    max-height: 600px; 
+    max-height: 100vh; 
     position: relative;
     width: 100%;
 }
@@ -115,3 +132,5 @@ h4 {
     max-width: 600px;
     text-align: justify;
 }
+
+/* BANNER ENDS */
