@@ -9,24 +9,64 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
   <title>Fetch Api</title>
 </head>
 
 <body>
+  <header>
+
   <!-- NAVBAR STARTS -->
-
+  <section class="tiledBackground">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/utility/images/logo_2.png" alt="" class="logo_nav"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end p-3" id="navbarSupportedContent">
+          <button type="button" class="btn-md btn btn-danger mx-1">Log In</button>
+          <button type="button" class="btn-md btn btn-danger mx-1">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+   <div class="container text-center">  
   <!-- NAVBAR ENDS -->
-  <br>
-  <br>
+    <br>
+    <br>
   <!-- SEARCH FORM STARTS -->
-
+  <section class="homePageContainer">
+    <div class="row justify-content-md-center mt-5 pt-5">
+      <h1 class="text-white"> Teasers Illimités. </h1>
+    </div>
+    <div class="row justify-content-md-center mt-3">
+      <h2 class="text-white">Où que vous soyez. Quand vous le voulez.</h2>
+    </div>
+    <div class="row justify-content-md-center mt-3">
+      <p id="teaseHome" class="text-white text-center mt-3">Prêt.e à tester Tease-Me? <br>Saisissez votre adresse
+          e-mail pour vous abonner ou réactiver votre abonnement </p>
+    </div>
+    <form class="row g-3 d-flex justify-content-center">
+      <div class="col-auto">
+        <input class="form-control acces" placeholder="Enter your email" type="email">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn-lg btn btn-outline-danger mb-3">Accédez à Tease-Me</button>
+      </div>
+    </form>
+  </section>
+  </div>
+  </section>
   <!-- SEARCH FORM ENDS -->
-
+    <br>
+    <br>
   <!-- START OF  BANNER -->
-  <div id="banner"></div>
+    <div id="banner"></div>
   <!-- END OF  BANNER -->
+  </header>
 
   <!-- FILM SEARCHED -->
   <div id="filmSearch"></div>
@@ -128,8 +168,6 @@
   <!-- SIGN UP FORM ENDS -->
 
 
-  <!-- JS script -->
-  <script src="fetch.js"></script>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
@@ -137,6 +175,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
   </script>
+  <!-- JS script -->
+  <script src="fetch.js"></script>
 
   <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
